@@ -18,11 +18,11 @@ def obter_clima(cidade):
         nome = dados["name"]
         temp = dados["main"]["temp"]
         descricao = dados["weather"][0]["description"]
-        print(f"\n📍 Cidade: {nome}")
-        print(f"🌡️ Temperatura: {temp}°C")
-        print(f"☁️ Clima: {descricao}")
+        print(f"\n Cidade: {nome}")
+        print(f" Temperatura: {temp}°C")
+        print(f" Clima: {descricao}")
     else:
-        print("\n❌ Cidade não encontrada. Tenta novamente.")
+        print("\n Cidade não encontrada. Tenta novamente.")
 
 if __name__ == "__main__":
     print("=== Consulta de Clima ===")
