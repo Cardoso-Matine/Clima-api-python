@@ -1,23 +1,24 @@
-# 🌦️ Consulta de Clima com API
+# 🌦️ Weather Consultation with API
 
-Este é um projeto simples em Python que utiliza a API do OpenWeatherMap para obter informações sobre o clima atual de qualquer cidade do mundo.
+This is a simple Python project that uses the OpenWeatherMap API to obtain information about the current weather in any city in the world.
 
-## Tecnologias Utilizadas
+
+## Technologies used
 
 - Python 3
-- Biblioteca `requests`
+- Library `requests`
 - API REST (OpenWeatherMap)
-- Dados em formato JSON
+- Data format JSON
 
-## Funcionalidades
+## Features
+- Current weather by city
+- Displays temperature and weather description
+- Messages in Portuguese
+- Clean, straightforward terminal reading
 
-- Consulta do clima atual por cidade
-- Exibe temperatura e descrição do clima
-- Mensagens em português
-- Leitura limpa e direta no terminal
 
-##  Como Usar
+##  How to use
 
-1. Clone este repositório:
+1. Clone this repository:
 ```bash
 git clone https://github.com/seu-usuario/clima-api-python.git
